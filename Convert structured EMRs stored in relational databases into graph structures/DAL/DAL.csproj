@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3D565AD1-A912-453E-9D64-12B78D48D296}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DAL</RootNamespace>
+    <AssemblyName>DAL</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto">
+      <HintPath>..\..\Lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\ccwm\Lib\Common\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActionAuditDAL.cs" />
+    <Compile Include="ActionChaorgDAL.cs" />
+    <Compile Include="ActionCounselDAL.cs" />
+    <Compile Include="ActionInoutDAL.cs" />
+    <Compile Include="ActionListBLL.cs" />
+    <Compile Include="ActionListDAL.cs" />
+    <Compile Include="ActionSturelaDAL.cs" />
+    <Compile Include="ActionSuspendDAL.cs" />
+    <Compile Include="AESHelper.cs" />
+    <Compile Include="ApplyInfoDAL.cs" />
+    <Compile Include="BasDictionaryDAL.cs" />
+    <Compile Include="BioImageDAL.cs" />
+    <Compile Include="BioMedDAL.cs" />
+    <Compile Include="BlogInnerMsgDAL.cs" />
+    <Compile Include="BlogMsgDAL.cs" />
+    <Compile Include="BlogStuMsgDAL.cs" />
+    <Compile Include="CaseFollowDAL.cs" />
+    <Compile Include="CaseInfoDAL.cs" />
+    <Compile Include="CaseLifestyleDAL.cs" />
+    <Compile Include="CaseYkbZsDAL.cs" />
+    <Compile Include="CounselTargetDAL.cs" />
+    <Compile Include="CourseClassDAL.cs" />
+    <Compile Include="CourseContentDAL.cs" />
+    <Compile Include="CourseInfoDAL.cs" />
+    <Compile Include="CourseRegionDAL.cs" />
+    <Compile Include="CourseScheduleDAL.cs" />
+    <Compile Include="CourseTeacherPollDAL.cs" />
+    <Compile Include="CourseTypeDAL.cs" />
+    <Compile Include="DbSql.cs" />
+    <Compile Include="ExamInfoDAL.cs" />
+    <Compile Include="ExamInfoDataDAL.cs" />
+    <Compile Include="EyeCheckLenstarDAL.cs" />
+    <Compile Include="EyeCheckLxdDAL.cs" />
+    <Compile Include="EyeCheckLxdYdDAL.cs" />
+    <Compile Include="EyeCheckOtherDAL.cs" />
+    <Compile Include="EyeCheckSlDAL.cs" />
+    <Compile Include="EyeCheckYdDAL.cs" />
+    <Compile Include="EyeCheckYyDAL.cs" />
+    <Compile Include="FinAccountDAL.cs" />
+    <Compile Include="FinItemDAL.cs" />
+    <Compile Include="FinListDAL.cs" />
+    <Compile Include="FinRetailDAL.cs" />
+    <Compile Include="HisEyeDAL.cs" />
+    <Compile Include="HisQsCancerDAL.cs" />
+    <Compile Include="HisQsDiaDAL.cs" />
+    <Compile Include="HisQsGxbDAL.cs" />
+    <Compile Include="HisQsGxyDAL.cs" />
+    <Compile Include="HisQsGxzDAL.cs" />
+    <Compile Include="HisQsMianyiDAL.cs" />
+    <Compile Include="HisQsNgsDAL.cs" />
+    <Compile Include="HisQsOtherDAL.cs" />
+    <Compile Include="IncomeListDAL.cs" />
+    <Compile Include="InoutGoodNameDAL.cs" />
+    <Compile Include="InoutGoodTypeDAL.cs" />
+    <Compile Include="InoutInventoryItemDAL.cs" />
+    <Compile Include="InoutInventoryListDAL.cs" />
+    <Compile Include="InoutItemsDAL.cs" />
+    <Compile Include="InoutListDAL.cs" />
+    <Compile Include="ItemsInoutTypeDAL.cs" />
+    <Compile Include="PayTempDAL.cs" />
+    <Compile Include="PriLoginLogDAL.cs" />
+    <Compile Include="PriPosDAL.cs" />
+    <Compile Include="PriRoleEduDAL.cs" />
+    <Compile Include="PriRoleRuleDAL.cs" />
+    <Compile Include="PriUserDAL.cs" />
+    <Compile Include="PriUserPositionDAL.cs" />
+    <Compile Include="PriUserRoleDAL.cs" />
+    <Compile Include="PriUserYwDAL.cs" />
+    <Compile Include="RSA.cs" />
+    <Compile Include="SetBioInsDAL.cs" />
+    <Compile Include="SetBioMedDAL.cs" />
+    <Compile Include="SetExamTopDAL.cs" />
+    <Compile Include="SetOtherFeeDAL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SendVerifyDAL.cs" />
+    <Compile Include="SetClassroomDAL.cs" />
+    <Compile Include="SetClassTimeDAL.cs" />
+    <Compile Include="SetGradeIdDAL.cs" />
+    <Compile Include="SetMarketActDAL.cs" />
+    <Compile Include="SetRegionDAL.cs" />
+    <Compile Include="SetResTagDAL.cs" />
+    <Compile Include="SetRetailLadderDAL.cs" />
+    <Compile Include="SetRetailPlanDAL.cs" />
+    <Compile Include="SetSchoolIdDAL.cs" />
+    <Compile Include="SetSourceDAL.cs" />
+    <Compile Include="SetTagManageDAL.cs" />
+    <Compile Include="SetWantGradeDAL.cs" />
+    <Compile Include="SM2\Cipher.cs" />
+    <Compile Include="SM2\SM2.cs" />
+    <Compile Include="SM2\Sm2Crypto.cs" />
+    <Compile Include="SmsMineDAL.cs" />
+    <Compile Include="SmsQueueDAL.cs" />
+    <Compile Include="SmsTempDAL.cs" />
+    <Compile Include="StoredProcedureDAL.cs" />
+    <Compile Include="StuAssessDAL.cs" />
+    <Compile Include="StuAttendCountDAL.cs" />
+    <Compile Include="StuClueDAL.cs" />
+    <Compile Include="StuClueTryDAL.cs" />
+    <Compile Include="StuCourseCheckDAL.cs" />
+    <Compile Include="StuCourseListDAL.cs" />
+    <Compile Include="StudentAttendDAL.cs" />
+    <Compile Include="StudentContactDAL.cs" />
+    <Compile Include="StudentCourseDAL.cs" />
+    <Compile Include="StudentFollowDAL.cs" />
+    <Compile Include="StudentFollowReviewDAL.cs" />
+    <Compile Include="StudentInfoDAL.cs" />
+    <Compile Include="StudentPreDAL.cs" />
+    <Compile Include="StudentReviewDAL.cs" />
+    <Compile Include="StudentSampleDAL.cs" />
+    <Compile Include="StuGoodListDAL.cs" />
+    <Compile Include="StuHomeworkDAL.cs" />
+    <Compile Include="StuOtherListDAL.cs" />
+    <Compile Include="StuTeaAssessDAL.cs" />
+    <Compile Include="SubmitRequestDAL.cs" />
+    <Compile Include="SubProductsDAL.cs" />
+    <Compile Include="SubProductsEnDAL.cs" />
+    <Compile Include="TestDAL.cs" />
+    <Compile Include="TokenDAL.cs" />
+    <Compile Include="VideoCourseDAL.cs" />
+    <Compile Include="WechatQueueDAL.cs" />
+    <Compile Include="WechatStuDAL.cs" />
+    <Compile Include="WechatTeaDAL.cs" />
+    <Compile Include="WjCaseInfoDAL.cs" />
+    <Compile Include="WjCaseLifestyleDAL.cs" />
+    <Compile Include="WjHisEyeDAL.cs" />
+    <Compile Include="WjHisQsCancerDAL.cs" />
+    <Compile Include="WjHisQsDiaDAL.cs" />
+    <Compile Include="WjHisQsGxbDAL.cs" />
+    <Compile Include="WjHisQsGxyDAL.cs" />
+    <Compile Include="WjHisQsGxzDAL.cs" />
+    <Compile Include="WjHisQsNgsDAL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{61fd396b-3398-4342-a0fe-38a4f8c369da}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

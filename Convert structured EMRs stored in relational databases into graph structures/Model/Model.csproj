@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{61FD396B-3398-4342-A0FE-38A4F8C369DA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Model</RootNamespace>
+    <AssemblyName>Model</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActionAuditModels.cs" />
+    <Compile Include="ActionChaorgModels.cs" />
+    <Compile Include="ActionChaorgModelsUse.cs" />
+    <Compile Include="ActionCounselModels.cs" />
+    <Compile Include="ActionCounselModelsUse.cs" />
+    <Compile Include="ActionInoutModels.cs" />
+    <Compile Include="ActionInoutModelsUse.cs" />
+    <Compile Include="ActionListModels.cs" />
+    <Compile Include="ActionSturelaModels.cs" />
+    <Compile Include="ActionSturelaModelsUse.cs" />
+    <Compile Include="ActionSuspendModels.cs" />
+    <Compile Include="ActionSuspendModelsUse.cs" />
+    <Compile Include="ApplyInfoModels.cs" />
+    <Compile Include="BasDictionaryModels.cs" />
+    <Compile Include="BioImageModels.cs" />
+    <Compile Include="BioMedModels.cs" />
+    <Compile Include="BlogInnerMsgModels.cs" />
+    <Compile Include="BlogMsgModels.cs" />
+    <Compile Include="BlogMsgModelsUse.cs" />
+    <Compile Include="BlogStuMsgModels.cs" />
+    <Compile Include="BlogStuMsgModelsUse.cs" />
+    <Compile Include="CalendarViewModels.cs" />
+    <Compile Include="CaseFollowModels.cs" />
+    <Compile Include="CaseInfoModels.cs" />
+    <Compile Include="CaseInfoModelsUse.cs" />
+    <Compile Include="WjCaseInfoModels.cs" />
+    <Compile Include="CaseLifestyleModels.cs" />
+    <Compile Include="WjCaseLifestyleModels.cs" />
+    <Compile Include="CaseYkbZsModels.cs" />
+    <Compile Include="CounselTargetModels.cs" />
+    <Compile Include="CounselTargetModelsUse.cs" />
+    <Compile Include="CourseClassModels.cs" />
+    <Compile Include="CourseClassModelsOneUse.cs" />
+    <Compile Include="CourseClassModelsUse.cs" />
+    <Compile Include="CourseContentModels.cs" />
+    <Compile Include="CourseInfoModels.cs" />
+    <Compile Include="CourseInfoModelsUse.cs" />
+    <Compile Include="CourseRegionModels.cs" />
+    <Compile Include="CourseScheduleModels.cs" />
+    <Compile Include="CourseScheduleModelsTry.cs" />
+    <Compile Include="CourseScheduleModelsTryUse.cs" />
+    <Compile Include="CourseScheduleModelsUse.cs" />
+    <Compile Include="CourseScheduleModelsUseM.cs" />
+    <Compile Include="CourseScheduleModelsUseW.cs" />
+    <Compile Include="CourseTeacherPollModels.cs" />
+    <Compile Include="CourseTrendModelsUse.cs" />
+    <Compile Include="CourseTypeModels.cs" />
+    <Compile Include="CrmInfoModels.cs" />
+    <Compile Include="DoubleLink.cs" />
+    <Compile Include="Enums.cs" />
+    <Compile Include="ExamInfoDataModels.cs" />
+    <Compile Include="ExamInfoModels.cs" />
+    <Compile Include="ExamInfoModelsUse.cs" />
+    <Compile Include="EyeCheckLenstarDisplayModels.cs" />
+    <Compile Include="EyeCheckLenstarModels.cs" />
+    <Compile Include="EyeCheckLxdDisplayModels.cs" />
+    <Compile Include="EyeCheckLxdModels.cs" />
+    <Compile Include="EyeCheckLxdYdDisplayModels.cs" />
+    <Compile Include="EyeCheckLxdYdModels.cs" />
+    <Compile Include="EyeCheckOtherDisplayModels.cs" />
+    <Compile Include="EyeCheckOtherModels.cs" />
+    <Compile Include="EyeCheckSlDisplayJsModels.cs" />
+    <Compile Include="EyeCheckSlDisplayYkbModels.cs" />
+    <Compile Include="EyeCheckSlModels.cs" />
+    <Compile Include="EyeCheckYdDisplayModels.cs" />
+    <Compile Include="EyeCheckYdModels.cs" />
+    <Compile Include="EyeCheckYyDisplayModels.cs" />
+    <Compile Include="EyeCheckYyModels.cs" />
+    <Compile Include="FinAccListModels.cs" />
+    <Compile Include="FinAccountModels.cs" />
+    <Compile Include="FinAccountModelsTotalUse.cs" />
+    <Compile Include="FinAccountModelsUse.cs" />
+    <Compile Include="FinancialComparisonModelsUse.cs" />
+    <Compile Include="FinancialTrendModels.cs" />
+    <Compile Include="FinItemModels.cs" />
+    <Compile Include="FinItemModelsUse.cs" />
+    <Compile Include="FinItemModelsUseCourseTrend.cs" />
+    <Compile Include="FinListModels.cs" />
+    <Compile Include="FinListModelsUse.cs" />
+    <Compile Include="FinRetailModels.cs" />
+    <Compile Include="FinRetailModelsUse.cs" />
+    <Compile Include="HisEyeDisplayModels.cs" />
+    <Compile Include="HisEyeModels.cs" />
+    <Compile Include="WjHisEyeModels.cs" />
+    <Compile Include="HisQsCancerDisplayModels.cs" />
+    <Compile Include="HisQsCancerModels.cs" />
+    <Compile Include="WjHisQsCancerModels.cs" />
+    <Compile Include="HisQsDiaDisplayModels.cs" />
+    <Compile Include="HisQsDiaModels.cs" />
+    <Compile Include="WjHisQsDiaModels.cs" />
+    <Compile Include="HisQsGxbDisplayModels.cs" />
+    <Compile Include="HisQsGxbModels.cs" />
+    <Compile Include="WjHisQsGxbModels.cs" />
+    <Compile Include="HisQsGxyDisplayModels.cs" />
+    <Compile Include="HisQsGxyModels.cs" />
+    <Compile Include="WjHisQsGxyModels.cs" />
+    <Compile Include="HisQsGxzDisplayModels.cs" />
+    <Compile Include="HisQsGxzModels.cs" />
+    <Compile Include="WjHisQsGxzModels.cs" />
+    <Compile Include="HisQsMianyiDisplayModels.cs" />
+    <Compile Include="HisQsMianyiModels.cs" />
+    <Compile Include="HisQsNgsDisplayModels.cs" />
+    <Compile Include="HisQsNgsModels.cs" />
+    <Compile Include="WjHisQsNgsModels.cs" />
+    <Compile Include="HisQsOtherDisplayModels.cs" />
+    <Compile Include="HisQsOtherModels.cs" />
+    <Compile Include="IncomeListModels.cs" />
+    <Compile Include="InoutGoodNameModels.cs" />
+    <Compile Include="InoutGoodNameModelsUse.cs" />
+    <Compile Include="InoutGoodsNameExcelModels.cs" />
+    <Compile Include="InoutGoodTypeModels.cs" />
+    <Compile Include="InoutInventoryItemModels.cs" />
+    <Compile Include="InoutInventoryItemModelsUse.cs" />
+    <Compile Include="InoutInventoryListModels.cs" />
+    <Compile Include="InoutInventoryListModelsUse.cs" />
+    <Compile Include="InoutItemsModels.cs" />
+    <Compile Include="InoutItemsModelsUse.cs" />
+    <Compile Include="InoutItemsModelsUseProfitDetail.cs" />
+    <Compile Include="InoutItemsModelsUseProfitSummary.cs" />
+    <Compile Include="InoutListModels.cs" />
+    <Compile Include="InoutListModelsUse.cs" />
+    <Compile Include="InoutListModelsUseForPrint.cs" />
+    <Compile Include="InoutListModelsUseInoutSum.cs" />
+    <Compile Include="ItemsInoutTypeModels.cs" />
+    <Compile Include="PayTempModels.cs" />
+    <Compile Include="PriLoginLogModels.cs" />
+    <Compile Include="PriPosModels.cs" />
+    <Compile Include="PriRoleEduModels.cs" />
+    <Compile Include="PriRoleRuleModels.cs" />
+    <Compile Include="PriUserExcelModels.cs" />
+    <Compile Include="PriUserModelsTeaUse.cs" />
+    <Compile Include="PriUserModelsUse.cs" />
+    <Compile Include="PriUserPositionModels.cs" />
+    <Compile Include="PriUserRoleModels.cs" />
+    <Compile Include="PriUserYwModels.cs" />
+    <Compile Include="SetBioInsModels.cs" />
+    <Compile Include="SetBioMedModels.cs" />
+    <Compile Include="SetExamTopModels.cs" />
+    <Compile Include="SetOtherFeeModels.cs" />
+    <Compile Include="PriUserModels.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SendVerifyModels.cs" />
+    <Compile Include="SetClassroomModels.cs" />
+    <Compile Include="SetClassroomModelsUse.cs" />
+    <Compile Include="SetClassTimeModels.cs" />
+    <Compile Include="SetGradeIdModels.cs" />
+    <Compile Include="SetMarketActModels.cs" />
+    <Compile Include="SetOtherFeeModelsUse.cs" />
+    <Compile Include="SetRegionModels.cs" />
+    <Compile Include="SetResTagModels.cs" />
+    <Compile Include="SetRetailLadderModels.cs" />
+    <Compile Include="SetRetailPlanModels.cs" />
+    <Compile Include="SetRetailPlanModelsUse.cs" />
+    <Compile Include="SetSchoolIdModels.cs" />
+    <Compile Include="SetSourceModels.cs" />
+    <Compile Include="SetTagManageModels.cs" />
+    <Compile Include="SetTagManageModelsUse.cs" />
+    <Compile Include="SetWantGradeModels.cs" />
+    <Compile Include="SmsMineModels.cs" />
+    <Compile Include="SmsMineModelsUse.cs" />
+    <Compile Include="SmsQueueModels.cs" />
+    <Compile Include="SmsTempModels.cs" />
+    <Compile Include="StuAssessModels.cs" />
+    <Compile Include="StuAssessModelsUse.cs" />
+    <Compile Include="StuAttendCountModels.cs" />
+    <Compile Include="StuClueModels.cs" />
+    <Compile Include="StuClueTryModels.cs" />
+    <Compile Include="StuCourseCheckModels.cs" />
+    <Compile Include="StuCourseListModels.cs" />
+    <Compile Include="StuCourseListModelsFinUse.cs" />
+    <Compile Include="StuCourseListModelsUse.cs" />
+    <Compile Include="StudentAttendModels.cs" />
+    <Compile Include="StudentAttendModelsUse.cs" />
+    <Compile Include="StudentAttendModelsUseAtt.cs" />
+    <Compile Include="StudentAttendModelsUseMan.cs" />
+    <Compile Include="StudentContactModels.cs" />
+    <Compile Include="StudentCourseModels.cs" />
+    <Compile Include="StudentCourseModelsClaUse.cs" />
+    <Compile Include="StudentCourseModelsUse.cs" />
+    <Compile Include="StudentCourseModelsUseAction.cs" />
+    <Compile Include="StudentCourseModelsUseByCla.cs" />
+    <Compile Include="StudentCourseModelsUseList.cs" />
+    <Compile Include="StudentCourseModelsUseNoDiv.cs" />
+    <Compile Include="StudentFollowModels.cs" />
+    <Compile Include="StudentFollowModelsPack.cs" />
+    <Compile Include="StudentFollowModelsUse.cs" />
+    <Compile Include="StudentFollowReviewModels.cs" />
+    <Compile Include="StudentInfoExcelModels.cs" />
+    <Compile Include="StudentInfoModels.cs" />
+    <Compile Include="StudentInfoModelsRegion.cs" />
+    <Compile Include="StudentInfoModelsUseHomework.cs" />
+    <Compile Include="StudentInfoModelsUseRecm.cs" />
+    <Compile Include="StudentInfoOpenModelsUse.cs" />
+    <Compile Include="StudentInfoPreModels.cs" />
+    <Compile Include="StudentInfoStaModels.cs" />
+    <Compile Include="StudentPreModels.cs" />
+    <Compile Include="StudentReviewModels.cs" />
+    <Compile Include="StudentReviewModelsUse.cs" />
+    <Compile Include="StudentSampleModels.cs" />
+    <Compile Include="StudentSampleModelsUse.cs" />
+    <Compile Include="StuExamDataModelsUse.cs" />
+    <Compile Include="StuGoodListModels.cs" />
+    <Compile Include="StuGoodListModelsUse.cs" />
+    <Compile Include="StuGradeIncreaseStaModels.cs" />
+    <Compile Include="StuGradeStaModels.cs" />
+    <Compile Include="StuHomeworkModels.cs" />
+    <Compile Include="StuHomeworkModelsUse.cs" />
+    <Compile Include="StuOtherListModels.cs" />
+    <Compile Include="StuOtherListModelsUse.cs" />
+    <Compile Include="SturelaStuModelsUse.cs" />
+    <Compile Include="StuTeaAssessModels.cs" />
+    <Compile Include="StuTeaAssessModelsUse.cs" />
+    <Compile Include="SubmitRequestModels.cs" />
+    <Compile Include="SubProductsModels.cs" />
+    <Compile Include="TokenModels.cs" />
+    <Compile Include="TopCourseModelsUse.cs" />
+    <Compile Include="TryStatisticsModels.cs" />
+    <Compile Include="VideoCourseModels.cs" />
+    <Compile Include="WechatQueueModels.cs" />
+    <Compile Include="ZNodeModels.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,15 @@
+D:\develop\CCFactory-back\CCFactory1\SourceCode\Model\bin\Release\Model.dll
+D:\develop\CCFactory-back\CCFactory1\SourceCode\Model\bin\Release\Model.pdb
+D:\develop\CCFactory-back\CCFactory1\SourceCode\Model\obj\Release\Model.csprojResolveAssemblyReference.cache
+D:\develop\CCFactory-back\CCFactory1\SourceCode\Model\obj\Release\Model.dll
+D:\develop\CCFactory-back\CCFactory1\SourceCode\Model\obj\Release\Model.pdb
+D:\develop\svn\glass\back\SourceCode\Model\bin\Release\Model.dll
+D:\develop\svn\glass\back\SourceCode\Model\bin\Release\Model.pdb
+D:\develop\svn\glass\back\SourceCode\Model\obj\Release\Model.csprojResolveAssemblyReference.cache
+D:\develop\svn\glass\back\SourceCode\Model\obj\Release\Model.dll
+D:\develop\svn\glass\back\SourceCode\Model\obj\Release\Model.pdb
+E:\Works\learn\learnsys\SourceCode\Model\bin\Release\Model.dll
+E:\Works\learn\learnsys\SourceCode\Model\bin\Release\Model.pdb
+E:\Works\learn\learnsys\SourceCode\Model\obj\Release\Model.csprojResolveAssemblyReference.cache
+E:\Works\learn\learnsys\SourceCode\Model\obj\Release\Model.dll
+E:\Works\learn\learnsys\SourceCode\Model\obj\Release\Model.pdb
